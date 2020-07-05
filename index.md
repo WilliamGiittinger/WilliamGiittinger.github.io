@@ -1,3 +1,5 @@
+William Giittinger's GitHub Pages initial setup.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
