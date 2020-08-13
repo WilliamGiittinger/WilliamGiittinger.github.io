@@ -1,0 +1,53 @@
+/* List of classifications for genus and species for creating unique id 
+   NOT intended for use in application */
+
+const classificationList = [{
+    genus: "giraffa",                     // Giraffe
+    genusId: "001",
+    speciesList: [{
+       species: "cameloparalis",
+       speciesId: "001"
+    },
+    {
+        species: "giraffa",
+        speciesId: "002"
+    },
+    {
+        species: "tippelskirchi",
+        speciesId: "003"
+    },
+    {
+        species: "reticulata",
+        speciesId: "004"
+    }]
+},
+
+{
+    genus: "capra",                        // Goat
+    genusId: "002",
+    speciesList: [{
+        species: "caucasica",
+        speciesId: "001"
+    },
+    {
+        species: "hircus",
+        speciesId: "002"
+    },
+    {
+        species: "ibex",
+        speciesId: "003"
+    }]
+},
+
+{
+    genus: "alligator",                   // Alligator
+    genusId: "003",
+    speciesList: [{
+        species: "mississippiensis",
+        speciesId: "001"
+    },
+    {
+        species: "sinesis",
+        speciesId: "002"
+    }]
+}]

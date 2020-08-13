@@ -1,0 +1,140 @@
+<header>
+    <link rel="stylesheet" href="../../public/css/welcomeStyles.css" type="text/css">
+</header>
+
+<body>
+    <%- include('partials/navbar') %>
+    
+    <%- include('partials/banner') %>
+
+    <div id="wrapperWelcome">
+        <div id="containerMessage">
+            <h1>Welcome <%= user%>!</h1>
+        </div>
+
+        <div id="containerLogout">
+            <form action='/logout?_method=DELETE' method='POST'>
+                <button type='submit'>Log Out</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="containerDisplay">
+        <form action='/welcome/displayDB' method="POST" id="dbForm">
+            <label for='pageNum'>Page Number? (10 per page):</label>
+            <input type='number' id='pageNum' name='pageNum' value='1' size='1' required>
+            <button type="submit">Display Animals from Database</button>
+        </form>
+        <% if (messages.dbDisplayMsg) { %>
+            <h5><%= messages.dbDisplayMsg %></h5>
+        <% } %>
+    
+
+        <!-- If there is a list of animals from MongoDB, display that list -->
+        <% if (orderedAnimalsDB.length > 0) { %>
+            <table class="animalTable">
+                <tr>
+                    <th>ZooID</th><th>Name</th><th>Genus</th><th>Species</th><th>Number</th><th>Status</th>
+                </tr>
+            
+                <%for (var i = 0; i < orderedAnimalsDB.length; i++) { %>
+                    <tr>
+                        <td><%= orderedAnimalsDB[i].zooId %></td>
+                        <td><%= orderedAnimalsDB[i].name %></td>
+                        <td><%= orderedAnimalsDB[i].genus %></td>
+                        <td><%= orderedAnimalsDB[i].species %></td>
+                        <td><%= orderedAnimalsDB[i].number %></td>
+                        <td><%= orderedAnimalsDB[i].status %></td>
+                    </tr>
+                <% } %>
+            </table>
+        <% } %>
+    </div>
+
+    <div class="containerDisplay">
+        <form action='/welcome/initializeBST' method="POST" id='initializeForm'>
+            <button type="submit">Initialize Binary Search Tree</button>
+            <span>Note: This uses animal data stored on MongoDB.</span>
+        </form>
+        <% if (messages.bstLoadMsg) { %>
+            <%= messages.bstLoadMsg %>
+        <% } %>
+
+        <form action='/welcome/displayBST' method="POST" id='bstForm'>
+            <button type="submit">Display Binary Search Tree</button>
+            <span>Note: Displays in order by Zoo ID.</span>
+        </form>
+        <% if (messages.bstDisplayMsg) { %>
+            <%= messages.bstDisplayMsg %>
+        <% } %>
+
+        <!-- If there is a list of animals in BST, display that list -->
+        <% if (orderedAnimalsBST.length > 0) { %>
+            <table class="animalTable">
+                <tr>
+                    <th>ZooID</th><th>Name</th><th>Genus</th><th>Species</th><th>Number</th><th>Status</th>
+                </tr>
+            
+                <%for (var i = 0; i < orderedAnimalsBST.length; i++) { %>
+                    <tr>
+                        <td><%= orderedAnimalsBST[i].zooId %></td>
+                        <td><%= orderedAnimalsBST[i].name %></td>
+                        <td><%= orderedAnimalsBST[i].genus %></td>
+                        <td><%= orderedAnimalsBST[i].species %></td>
+                        <td><%= orderedAnimalsBST[i].number %></td>
+                        <td><%= orderedAnimalsBST[i].status %></td>
+                    </tr>
+                <% } %>
+            </table>
+        <% } %>
+    </div>
+
+    <div id="wrapperInsert">
+        <div id="containerInsertDB">
+            <form action='/welcome/insertDB' method="POST">
+                <h1>Insert Animal into MongoDB</h1>
+                <%- include('partials/insertForm') %>
+            </form>
+            <% if (messages.insertMsg) { %>
+                <%= messages.insertMsg %>
+            <% } %>
+        </div>
+
+        <div id="containerInsertBST">
+            <form action='/welcome/insertBST' method="POST">
+                <h1>Insert Animal into Binary Tree</h1>
+                <h4>Won't go to DB</h4>
+                <%- include('partials/insertForm') %>
+                <button type="submit">Insert Animal</button>
+            </form>
+            <% if (messages.insertMsg2) { %>
+                <%= messages.insertMsg2 %>
+            <% } %>
+        </div>
+    </div>
+
+    <div id="wrapperRemove">
+        <div id="containerRemoveBST">
+            <form action='/welcome/removeBST' method="POST">
+                <div>
+                    <label for='animalToRemove'>Remove animal with this ID from Binary Tree:</label>
+                    <input type='text' id='animalToRemove' name='animalToRemove' required>
+                </div>
+                <button type="submit">Remove Animal</button>
+                <span>Note: Must click display button again to display updated data.</span>
+            </form>
+        </div>
+
+        <div id="containerRemoveDB">
+            <form action='/welcome/removeDB' method="POST">
+                <div>
+                    <label for='animalToRemove'>Remove animal with this ID from MongoDB:</label>
+                    <input type='text' id='animalToRemove' name='animalToRemove' required>
+                </div>
+                <button type="submit">Remove Animal</button>
+                <span>Note: Must click display button again to display updated data.</span>
+            </form>
+        </div>
+    </div>
+
+</body>
