@@ -1,8 +1,6 @@
 ### Written and maintained by William Giittinger.
 
-email: gkwillg@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/will-giittinger/
+email: gkwillg@gmail.com ----- [LinkedIn Profile](https://www.linkedin.com/in/will-giittinger/)
 
 # An introduction to me and my capstone project...
 
