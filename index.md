@@ -29,6 +29,8 @@ The goal of the second artifact was to implement a binary search tree which coul
 The final artifact was to implement the document-oriented MongoDB. Ideally this would have been implemented much earlier on, but the structure of the capstone course placed this artifact last. The database was created through MongoDB Atlas and is hosted by Amazon Web Services (AWS). As such, the database is stored in the cloud and can be accessed from and device connected to the internet, which is a fundamental requirement for a website of this kind. The structure of the MonoDB is not complex and was designed with two collections, one for the user (zookeeper) data and another for the animal data. Once the database was online and connected to the server (using hidden .env variables for authentication), large portions of the website were then refactored to utilize the data stored on the database rather than the text and json files. An unforeseen benefit of having to rework parts of the website was the demonstration of my ability to work with an existing code base and change it to meet changing requirements. For added benefit, the mongoose module was utilized for data modeling on the server side. This provided numerous benefits, but primarily allows the defining of schemas and data enforcement. With this artifact completed, and a few extra web design improvements, the full-stack website project was complete.
 
 
+------------------------------------------------------------------------------
+
 
 # _"Sample Zoo"_ Website
 
@@ -55,14 +57,20 @@ The below development narratives are written desciptions of each program feature
 ### Login and Authentication
 MS Word document: [Login Artifact Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact1.docx)
 
+Working repo branch: [Artifact 1](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact1)
+
 ------------------------------------------------------------------------------
 
 ## Artifact 2 Narrative
 ### Binary Tree Data Structure and Algorithms
 MS Word document: [Data Structures and Algorithms Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact2.docx)
 
+Working repo branch: [Artifact 2](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact2)
+
 ------------------------------------------------------------------------------
 
 ## Artifact 3 Narrative
 ### MongoDB Implementation
 MS Word document: [MongoDB Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact3.docx)
+
+Working repo branch: [Artifact 3](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact3)
