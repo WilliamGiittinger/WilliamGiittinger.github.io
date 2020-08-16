@@ -32,16 +32,17 @@ The final artifact was to implement the document-oriented MongoDB. Ideally this 
 
 # _"Sample Zoo"_ Website
 
-If you wish to see each artifact individually, here is a link to the "working" repo with branches for each feature:
+If you wish to see each artifact individually, here is a [link](https://github.com/WilliamGiittinger/ZooAuthenticationSite) to the "working" repo with branches for each feature:
 
-https://github.com/WilliamGiittinger/ZooAuthenticationSite
+
 
 ## Informal Code Review
 A video review of previous programs that I developed. The goal was to identify previous work that covered the three focus points for the capstone project.
 - **Software Design and Engineering**
 - **Data Structures and Algorithms**
 - **Databases**
-Note: Some of the reviewed work is from when I first started learning to program.
+
+_Note: Some of the reviewed work is from when I first started learning to program._
 
 Google Drive link to video file: [Code Review .mov](https://drive.google.com/file/d/1LRDlUXy0AMTRgDfzF4f9gSg9koGRhO70/view?usp=sharing)
 
@@ -51,17 +52,17 @@ Google Drive link to video file: [Code Review .mov](https://drive.google.com/fil
 The below development narratives are written desciptions of each program feature. The narratives include why I decided to develop that particular feature and how it demonstrates my capabilities as a software developer. Also included is a reflection of the development process and how it helped me improve as a developer.
 
 ## Artifact 1 Narrative
-### Login and Authentication Artifact
+### Login and Authentication
 MS Word document: [Login Artifact Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact1.docx)
 
 ------------------------------------------------------------------------------
 
 ## Artifact 2 Narrative
-### Binary Search Tree Data Structure Artifact
+### Binary Tree Data Structure and Algorithms
 MS Word document: [Data Structures and Algorithms Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact2.docx)
 
 ------------------------------------------------------------------------------
 
 ## Artifact 3 Narrative
-### Mongo Database Creation and Utilization Artifact
+### MongoDB Implementation
 MS Word document: [MongoDB Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact3.docx)
