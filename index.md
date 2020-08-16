@@ -32,9 +32,9 @@ The final artifact was to implement the document-oriented MongoDB. Ideally this 
 ------------------------------------------------------------------------------
 
 
-# _"Sample Zoo"_ Website
+# Capstone Project: _"Sample Zoo"_ Website
 
-If you wish to see each artifact individually, here is a [link](https://github.com/WilliamGiittinger/ZooAuthenticationSite) to the "working" repo with branches for each feature:
+If you wish to see each artifact individually, here is a [link](https://github.com/WilliamGiittinger/ZooAuthenticationSite) to the "working" GitHub repo with branches for each feature.
 
 
 
@@ -57,7 +57,7 @@ The below development narratives are written desciptions of each program feature
 ### Login and Authentication
 MS Word document: [Login Artifact Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact1.docx)
 
-Working repo branch: [Artifact 1](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact1)
+Working GitHub repo branch: [Artifact 1](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact1)
 
 ------------------------------------------------------------------------------
 
@@ -65,7 +65,7 @@ Working repo branch: [Artifact 1](https://github.com/WilliamGiittinger/ZooAuthen
 ### Binary Tree Data Structure and Algorithms
 MS Word document: [Data Structures and Algorithms Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact2.docx)
 
-Working repo branch: [Artifact 2](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact2)
+Working GitHub repo branch: [Artifact 2](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact2)
 
 ------------------------------------------------------------------------------
 
@@ -73,4 +73,4 @@ Working repo branch: [Artifact 2](https://github.com/WilliamGiittinger/ZooAuthen
 ### MongoDB Implementation
 MS Word document: [MongoDB Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact3.docx)
 
-Working repo branch: [Artifact 3](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact3)
+Working GitHub repo branch: [Artifact 3](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact3)
