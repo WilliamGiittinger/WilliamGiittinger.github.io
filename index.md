@@ -4,7 +4,7 @@ email: gkwillg@gmail.com ----- [LinkedIn Profile](https://www.linkedin.com/in/wi
 
 # An introduction to me and my capstone project...
 
-MS Word document alternative: [Self-Assessment](linkURL)
+MS Word document alternative: [Self-Assessment](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/self%20assessment.docx)
 
 ## Reflection
 Throughout my time in the Computer Science (CS) program at Southern New Hampshire University, I have worked from the ground up to build the skills and knowledge needed to be a professional web developer. At the beginning, it was learning the basics with mathematics and simple scripting with Python. By the end, I was creating full-stack websites, object-oriented programs in a variety of programming languages, and even reverse engineering basic programs to use the Assembly instructions to recreate the program in C. Today’s developers need to be adept in more than just making a functioning program. To that end, the CS program has exposed me to a variety of scenarios and taught me industry best practices to approach each challenge.
