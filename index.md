@@ -2,11 +2,18 @@
 
 email: gkwillg@gmail.com ----- [LinkedIn Profile](https://www.linkedin.com/in/will-giittinger/)
 
+# ePortfolio description and notes...
+
+This page contains a professional relection of myself and the work for my capstone project. The majority of the other projects I have worked on throughout my degree include "skeleton code" (empty methods, helper functions, etc.) that are the intellectual property of Sothern New Hampshire University. As such, they have asked that I don't explicitly link or showcase those projects here, in the interest of the academic integrity of future students. I would, however, be happy to discuss those projects and my other works in a private setting.
+
+
+------------------------------------------------------------------------------
+
+
 # An introduction to me and my capstone project...
 
-MS Word document alternative: [Self-Assessment](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/self%20assessment.docx)
-
 ## Reflection
+
 Throughout my time in the Computer Science (CS) program at Southern New Hampshire University, I have worked from the ground up to build the skills and knowledge needed to be a professional web developer. At the beginning, it was learning the basics with mathematics and simple scripting with Python. By the end, I was creating full-stack websites, object-oriented programs in a variety of programming languages, and even reverse engineering basic programs to use the Assembly instructions to recreate the program in C. Today’s developers need to be adept in more than just making a functioning program. To that end, the CS program has exposed me to a variety of scenarios and taught me industry best practices to approach each challenge.
 
 
@@ -16,7 +23,11 @@ Early in the CS program, I had coursework in the software development lifecycle 
 After learning how to be an effective communicator and the preparatory steps for program development, much of the rest of my time in the CS program was spent covering a wide range of software topics. An entire course was dedicated to learning different data structures and algorithms, from which I learned the concepts necessary to work with more complex data structures. For example, it was this course that taught me how to develop and interact with binary trees which I have since implemented in my capstone project, a full-stack website created from the ground up. I also learned about a variety of databases. The first database I learned to use was a MySQL database, including how to implement CRUD (create, read, update, delete) functionality. This was expanded upon with more advanced concepts such as aggregation. In later courses, I was exposed to the document-oriented MongoDB which I also utilized as the database for my capstone project. I also learned about software security and the potential harms that can occur if it is not taken seriously. While reverse engineering, I learned a wide array of security issues that occur in program logic such as dangling pointers, stack smashing (buffer overflow), broken algorithms, and more. Furthering my security knowledge in practice, the website I created in my full-stack development course included full password encryption, session support using the node.js Passport module, and discussion on other attack vectors such as injection attacks.
 
 
-## Capstone Project
+------------------------------------------------------------------------------
+
+
+## Capstone Project: _"Sample Zoo"_ Website
+
 For my capstone course, I needed to address three main areas of expertise and showcase the skills and understanding I had of each. Specifically, the three focal points were software design and engineering, algorithms and data structures, and databases. Considering my desire to work as a web developer, instead of using three different programs or improving my previous programs, I decided to create a full-stack website from scratch and focus on those areas. Before starting development, I performed an informal code review of some of my previous work to identify specific ideas that I could use to demonstrate my capabilities. This review also focused on the strengths and weaknesses of those programs and how I could improve and mold the functions in them for my website. It also helped me identify a theme for my website, a website for a zoo where zookeepers could login and keep track of the zoo’s animals (e.g. add newly acquired animals, keep track of their status, etc.). 
 
 
@@ -31,8 +42,6 @@ The final artifact was to implement the document-oriented MongoDB. Ideally this 
 
 ------------------------------------------------------------------------------
 
-
-# Capstone Project: _"Sample Zoo"_ Website
 
 If you wish to see each artifact individually, here is a [link](https://github.com/WilliamGiittinger/ZooAuthenticationSite) to the "working" GitHub repo with branches for each feature.
 
@@ -74,3 +83,13 @@ Working GitHub repo branch: [Artifact 2](https://github.com/WilliamGiittinger/Zo
 MS Word document: [MongoDB Narrative](https://github.com/WilliamGiittinger/WilliamGiittinger.github.io/blob/master/artifact3.docx)
 
 Working GitHub repo branch: [Artifact 3](https://github.com/WilliamGiittinger/ZooAuthenticationSite/tree/artifact3)
+
+------------------------------------------------------------------------------
+
+# The future...
+
+## Passion Project
+
+Now that I have recently finished my schooling, I am planning on working on my first large scale passion project. This project will be something that I care about and want to create from scratch. It will include many new and interesting challenges. I plan on creating a data analytics website for an online game that I enjoy playing with friends. With this data I hope to use statistics and data mining to develop new insights into game specific outcomes. For example, determining variance in winning a game based upon which character is played, characters played against, items purchased, objectives obtained, etc. and the weight of each of those factors in determining each match's outcome. For this project I will be using the MERN stack (MongoDB, Express.js, React, Node.js). React is a framework that I have never previously used, although I have used the somewhat similar AngularJS. While I did enjoy working with AngularJS, I experienced some key functional issues that were extremely difficult to resolve. The most important of which was a CORS module interaction issue which wasn't correctly routing specific request types (mostly PUTS). In communication with my professor at the time, neither of us could determine the exact cause of the issue, but he suggested it may be a node module version incompatibility. To avoid having this same issue appear, and to challenge myself to learn a new technology, I will instead use the React framework.
+
+There are a few other new challenges this project will present for me. This will be the first time that I extensively interact with an external API for a majority of the data I need to present information on my webpage. Considering this, I need to be precise with the setup and interaction of the API to ensure I'm using the correct data. I will need to make some key decisions on how the data is stored on my DB as the amount of data I could be working with is large. This project will also be the first time that I plan to develop and present visual graphs. This will have to be something that I do some research for, as I don't know of any tool in my past experience that supports visual graphing. I also plan on attempting to implement some level of multi-threading in this project. Again, this is something I've never personally worked with so it will be another learning curve for this project. In the end, I'm excited to see how this project pans out and all of the learning and challenges I am bound to run into during development. 
