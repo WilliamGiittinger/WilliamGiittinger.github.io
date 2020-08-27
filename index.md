@@ -28,6 +28,8 @@ After learning how to be an effective communicator and the preparatory steps for
 
 ## Capstone Project: _"Sample Zoo"_ Website
 
+To view the project files, click the "View On GitHub" button at the top of the page. Alternatively, here is a [link](https://github.com/WilliamGiittinger/ZooAuthenticationSite) to the working repository.
+
 For my capstone course, I needed to address three main areas of expertise and showcase the skills and understanding I had of each. Specifically, the three focal points were software design and engineering, algorithms and data structures, and databases. Considering my desire to work as a web developer, instead of using three different programs or improving my previous programs, I decided to create a full-stack website from scratch and focus on those areas. Before starting development, I performed an informal code review of some of my previous work to identify specific ideas that I could use to demonstrate my capabilities. This review also focused on the strengths and weaknesses of those programs and how I could improve and mold the functions in them for my website. It also helped me identify a theme for my website, a website for a zoo where zookeepers could login and keep track of the zoo’s animals (e.g. add newly acquired animals, keep track of their status, etc.). 
 
 
@@ -43,7 +45,7 @@ The final artifact was to implement the document-oriented MongoDB. Ideally this 
 ------------------------------------------------------------------------------
 
 
-If you wish to see each artifact individually, here is a [link](https://github.com/WilliamGiittinger/ZooAuthenticationSite) to the "working" GitHub repo with branches for each feature.
+If you wish to see each artifact individually, use this [link](https://github.com/WilliamGiittinger/ZooAuthenticationSite) to the "working" GitHub repo with branches for each feature.
 
 
 
